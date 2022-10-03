@@ -5,6 +5,7 @@
 .link-bar > div {
   max-width: 1190px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .link-bar ul {
@@ -35,6 +36,7 @@
   max-width: 1190px;
   height: 75px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .logo-area img {
@@ -42,8 +44,8 @@
 }
 
 .form-area {
-  margin-left: 90px;
-  max-width: 650px;
+  margin-left: 70px;
+  max-width: 680px;
   width: 100%;
 }
 
@@ -76,17 +78,21 @@
 }
 
 .search-icon-area svg {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .cart-area {
-  margin-left: 30px;
-  margin-right: 60px;
+  margin-left: 25px;
+  margin-right: 50px;
 }
 
 .cart-area svg {
   color: black;
   font-size: 25px;
+}
+
+.download-app {
+  width: 190px;
 }
 
 .download-app img {

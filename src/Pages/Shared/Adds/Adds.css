@@ -1,0 +1,12 @@
+.adds-container {
+  max-width: 1190px;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.adds-container img {
+    cursor: pointer;
+    border-radius: 10px;
+}
