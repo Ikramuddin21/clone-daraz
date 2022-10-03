@@ -1,0 +1,94 @@
+.link-bar {
+  background-color: #ececec;
+}
+
+.link-bar > div {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.link-bar ul {
+  height: 25px;
+  justify-content: flex-end;
+}
+
+.link-bar ul li {
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.link-bar ul li a {
+  color: black;
+  text-transform: uppercase;
+}
+
+.link-bar-active-item {
+  color: #f85606 !important;
+}
+
+/* logo bar styles */
+.logo-bar {
+  background-color: #ffffff;
+}
+
+.logo-bar > div {
+  max-width: 1190px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.logo-area img {
+  width: 130px;
+}
+
+.form-area {
+  margin-left: 90px;
+  max-width: 650px;
+  width: 100%;
+}
+
+.form {
+  height: 45px;
+  position: relative;
+}
+
+.form input {
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.search-icon-area {
+  right: 0;
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #f57247;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search-icon-area svg {
+  font-size: 25px;
+}
+
+.cart-area {
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+.cart-area svg {
+  color: black;
+  font-size: 25px;
+}
+
+.download-app img {
+  width: 100%;
+}
