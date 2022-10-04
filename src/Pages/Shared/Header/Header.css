@@ -1,3 +1,9 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
 .link-bar {
   background-color: #ececec;
 }
@@ -21,6 +27,13 @@
 .link-bar ul li a {
   color: black;
   text-transform: uppercase;
+  transition: 0.2s;
+  border-bottom: 1px solid transparent;
+}
+
+.link-bar ul li a:hover {
+  color: #f57247;
+  border-bottom: 1px solid #f57247;
 }
 
 .link-bar-active-item {

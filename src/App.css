@@ -15,6 +15,10 @@ button {
   color: #f85606;
 }
 
+.highlight-color2 {
+  color: #f57247;
+}
+
 .d-flex {
   display: flex;
 }

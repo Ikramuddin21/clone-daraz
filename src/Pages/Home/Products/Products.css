@@ -1,0 +1,41 @@
+.product {
+    background-color: #ffffff;
+    max-width: 185px;
+    padding: 8px;
+}
+
+.product-img-area {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.product-img-area img {
+    width: 100%;
+}
+
+.product-text-area {
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.product-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.product-price-percentise {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.product-price-percentise > span {
+    text-decoration: line-through;
+}
