@@ -9,9 +9,9 @@
 }
 
 .hero-carousel {
-    max-width: 970px;
+    max-width: 990px;
     position: relative;
-    left: 200px;
+    left: 180px;
     overflow: hidden;
 }
 

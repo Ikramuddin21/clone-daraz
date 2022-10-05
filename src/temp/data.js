@@ -6,6 +6,10 @@ export const heroBanner = [
     "https://i.ibb.co/FwR01xc/hero-banner5.jpg"
 ];
 
+export const navCategory = [
+    "Laptop", "Phone", "Camera", "Tripod", "TV Box", "Watch", "USB", "Camera", "Phone", "Tripod", "Watch", "TV Box"
+];
+
 export const linksCategory = [
     {
         id: 1,
@@ -27,4 +31,4 @@ export const linksCategory = [
         title: "USB",
         img: "usb.png"
     },
-]
+];

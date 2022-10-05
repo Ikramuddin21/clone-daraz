@@ -1,0 +1,27 @@
+.nav-category {
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.nav-category-lists {
+  width: 200px;
+  height: 350px;
+}
+
+.nav-category-item {
+  padding: 5px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.nav-category-item:hover {
+    background-color: lightgray;
+}
+
+.nav-category-item a {
+    color: gray;
+}
+
+.nav-category-item:hover.nav-category-item a {
+  color: #0fa9a9;
+}

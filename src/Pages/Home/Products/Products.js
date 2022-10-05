@@ -11,8 +11,8 @@ const Products = ({ product }) => {
             </div>
             <div className="product-text-area">
                 <h4 className="product-name">{name.split(" ").slice(0, 6).join(" ")}</h4>
-                <h3 className="highlight-color2 product-price">৳{price}</h3>
-                <p className="product-price-percentise"><span>৳34</span> -34%</p>
+                <h3 className="highlight-color2 product-price">৳{Math.ceil(price / 100 * 80)}</h3>
+                <p className="product-price-percentise"><span>৳{Math.ceil(price)}</span> -20%</p>
                 <StarRatings
                     className="product-star"
                     rating={star}
@@ -22,7 +22,7 @@ const Products = ({ product }) => {
                     starDimension="12px"
                     numberOfStars={5}
                 />
-                <small> ({starCount})</small>
+                <small className="product-star-count">{starCount}</small>
             </div>
         </div>
     );

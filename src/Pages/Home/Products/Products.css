@@ -2,6 +2,13 @@
     background-color: #ffffff;
     max-width: 185px;
     padding: 8px;
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.product:hover {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .product-img-area {
@@ -21,6 +28,10 @@
 .product-name {
     font-size: 14px;
     font-weight: 500;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 .product-price {
@@ -30,7 +41,7 @@
 }
 
 .product-price-percentise {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 5px;
     margin-bottom: 5px;
     color: gray;
@@ -38,4 +49,16 @@
 
 .product-price-percentise > span {
     text-decoration: line-through;
+}
+
+.product-star-count {
+    margin-left: 2px;
+}
+
+.product-star-count::before {
+    content: "(";
+}
+
+.product-star-count::after {
+    content: ")";
 }

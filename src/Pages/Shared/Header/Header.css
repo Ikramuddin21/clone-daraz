@@ -50,10 +50,11 @@
   height: 75px;
   margin: 0 auto;
   padding: 0 10px;
+  justify-content: space-between;
 }
 
 .logo-area img {
-  width: 130px;
+  width: 100px;
 }
 
 .form-area {

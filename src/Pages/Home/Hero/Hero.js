@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { heroBanner } from '../../../temp/data';
 import './Hero.css';
+import NavCategory from '../../Shared/NavCategory/NavCategory';
 
 const Hero = () => {
     const settings = {
@@ -19,6 +20,7 @@ const Hero = () => {
     return (
         <div className="hero-container">
             <div className="hero-wrapper">
+                <NavCategory />
                 <div className="hero-carousel">
                     <Slider {...settings}>
                         {
