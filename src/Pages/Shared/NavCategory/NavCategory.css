@@ -4,7 +4,7 @@
 }
 
 .nav-category-lists {
-  width: 200px;
+  width: 180px;
   height: 350px;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .nav-category-item:hover {
-    background-color: lightgray;
+    background-color: #e3e3e3;
 }
 
 .nav-category-item a {

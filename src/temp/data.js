@@ -32,3 +32,13 @@ export const linksCategory = [
         img: "usb.png"
     },
 ];
+
+export const footerDaraz = ["About Daraz", "Digital Payments", "Careers", "Daraz Blog", "Daraz Cares", "dMart", "Privacy Policy", "Daraz App", "Daraz Exclusives", "Hungrynaki Food Delivery", "Bd Crickey Live"];
+
+export const socialMedia = [
+    "https://i.ibb.co/4sV548v/facebook.png",
+    "https://i.ibb.co/mTXk5tN/dribbble.png",
+    "https://i.ibb.co/dGxv5Fh/instagram.png",
+    "https://i.ibb.co/MhRzsSK/linkedin.png",
+    "https://i.ibb.co/n8vdfJ1/twitter.png"
+];

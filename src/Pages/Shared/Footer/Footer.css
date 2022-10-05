@@ -1,0 +1,90 @@
+.footer {
+  background-color: #2e2e54;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.footer-wrapper {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 30px 10px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.footer-wrapper h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-wrapper ul {
+    margin-top: 8px;
+}
+
+.footer-wrapper ul li {
+    margin-bottom: 2px;
+}
+
+.footer-wrapper ul li a {
+    color: #ffffff;
+    font-size: 12px;
+    transition: 0.2s;
+    border-bottom: 1px solid transparent;
+}
+
+.footer-wrapper ul li a:hover {
+    border-bottom: 1px solid;
+}
+
+.footer-daraz ul li {
+    margin-bottom: 4px;
+}
+
+.footer-earn-daraz {
+    margin-top: 30px;
+}
+
+.footer-logo-area img {
+    width: 80px;
+}
+
+.footer-logo-area > div {
+    margin-left: 20px;
+}
+
+.footer-logo-area > div  p {
+    margin: 5px 0;
+}
+
+.download-app-link {
+    margin-top: 60px;
+}
+
+.download-app-link img {
+    width: 140px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.payment-methods-area .payment-method {
+    max-width: 300px;
+    width: 100%;
+}
+
+.social-media {
+    margin-top: 60px;
+}
+
+.social-media img {
+    width: 40px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.copyright-area {
+    max-width: 1190px;
+    padding: 0 10px 15px;
+    margin: 0 auto;
+    text-align: right;
+}

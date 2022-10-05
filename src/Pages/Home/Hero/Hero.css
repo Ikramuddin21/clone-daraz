@@ -6,13 +6,13 @@
     max-width: 1190px;
     margin: 0 auto;
     padding: 0 10px;
+    overflow: hidden;
 }
 
 .hero-carousel {
     max-width: 990px;
     position: relative;
     left: 180px;
-    overflow: hidden;
 }
 
 .hero-carousel .slick-dots {
