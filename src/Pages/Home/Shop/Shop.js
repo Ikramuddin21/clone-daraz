@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Products from '../Products/Products';
 import './Shop.css';
 
@@ -6,6 +7,7 @@ const Shop = () => {
     const initialProduct = 24;
     const [products, setProducts] = useState([]);
     const [loadProduct, setLoadProduct] = useState(initialProduct);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const fetchProducts = async () => {
@@ -16,8 +18,14 @@ const Shop = () => {
         fetchProducts();
     }, []);
 
+    // load more products
     const handleLoadMore = () => {
         setLoadProduct(loadProduct + initialProduct);
+    };
+
+    // handle products details
+    const handleProductDetails = id => {
+        navigate(`/productDetails/${id}`);
     };
 
     return (
@@ -25,7 +33,11 @@ const Shop = () => {
             <h2 className="shop-title">Just For You</h2>
             <div className="products">
                 {
-                    products?.slice(0, loadProduct).map(product => <Products key={product.key} product={product} />)
+                    products?.slice(0, loadProduct).map(product => <Products 
+                        key={product.key} 
+                        product={product} 
+                        handleProductDetails={handleProductDetails}
+                        />)
                 }
             </div>
             {

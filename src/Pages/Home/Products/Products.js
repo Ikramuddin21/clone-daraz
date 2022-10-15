@@ -2,10 +2,10 @@ import React from 'react';
 import StarRatings from 'react-star-ratings';
 import './Products.css';
 
-const Products = ({ product }) => {
+const Products = ({ product, handleProductDetails }) => {
     const { _id, name, star, starCount, img, price } = product;
     return (
-        <div className="product">
+        <div className="product" onClick={() => handleProductDetails(_id)}>
             <div className="product-img-area">
                 <img src={img} alt="" />
             </div>

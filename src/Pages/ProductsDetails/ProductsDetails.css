@@ -1,0 +1,31 @@
+.products-details-container {
+  max-width: 1190px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.breadcrumb {
+    color: gray;
+}
+
+.breadcrumb span {
+    margin-right: 5px;
+}
+
+.breadcrumb span a {
+    margin-right: 5px;
+    text-transform: capitalize;
+    color: #0fa9a9;
+}
+
+.breadcrumb span svg {
+    height: 13px;
+    fill: darkgray;
+}
+
+.product-details-name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
